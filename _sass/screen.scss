@@ -4,7 +4,16 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "variables";
 
-body { 
-	background: #003399; 
+body {
+	background: $alt-color;
+}
+
+p {
+	color: $light-color;
+}
+
+a {
+	color: $lighter-color;
 }

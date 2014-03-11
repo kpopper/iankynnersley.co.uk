@@ -67,7 +67,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../_sass/screen.scss */
+/* line 9, ../_sass/screen.scss */
 body {
-  background: #003399;
+  background: #25567b;
+}
+
+/* line 13, ../_sass/screen.scss */
+p {
+  color: #3f92d2;
+}
+
+/* line 17, ../_sass/screen.scss */
+a {
+  color: #66a3d2;
 }
