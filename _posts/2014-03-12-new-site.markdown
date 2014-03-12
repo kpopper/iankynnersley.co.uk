@@ -1,6 +1,6 @@
 ---
-Layout: post
-Title: New site
+layout: post
+title: New site
 ---
 
 New phase, new site. Now that I'm freelance again but with a different emphasis, i thought it was time to make a new site. 
