@@ -6,21 +6,99 @@
 @charset "utf-8";
 @import "normalize";
 @import "bourbon/bourbon";
-@import "bitters/bitters";
+//@import "bitters/bitters";
 @import "grid-settings";
 @import "neat/neat";
 
 /*@import "compass/reset";*/
 @import "variables";
+@import "fonts";
 
 body {
-	background: $alt-color;
+	background: white;
+	font-family: 'sinanova-regularregular', Times, "Times New Roman", serif;
+}
+
+h1 {
+	@include media($tablet) {
+		font-size: 4rem;
+	}
+	font-size: 3rem;
 }
 
 p {
-	color: $light-color;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 135%;
 }
 
 a {
-	color: $lighter-color;
+	color: $link-color;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.block {
+	@include row();
+}
+
+.site {
+	@include outer-container();
+	@include media($tablet) {
+		max-width: em(600);
+	}
+	@include media($full) {
+		max-width: em(768);
+	}
+	max-width: em(480);
+
+}
+
+.contents {
+	@include span-columns(4);
+	@include shift(1);
+	@include media($tablet){
+		@include span-columns(6);
+		@include shift(1);
+	}
+	@include media($full){
+		@include span-columns(10);
+		@include shift(1);
+	}
+}
+
+.footer {
+	background: $alt-background-color;
+	margin-top: 1.5rem;
+	padding: 0 0 2rem;
+
+	a {
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			font-size: 1.2rem;
+			line-height: 165%;
+		}
+
+		.fa {
+			width: em(30);
+		}
+	}
+
+	.contact {
+		@include outer-container();
+	}
 }

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -13,30 +14,49 @@
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
+      <div class="container">
+        <div class="wrapper block">
+          <div class="site">
+            <div class="contents">
+              {{ content }}
             </div>
           </div>
         </div>
-
+        <div class="footer block">
+          <div class="contact">
+            <div class="contents">
+              <p>Get in touch:</p>
+              <ul>
+              <li><i class="fa fa-twitter"></i><a href="https://twitter.com/kpopper">@kpopper</a></li>
+              <li><i class="fa fa-linkedin"></i><a href="http://uk.linkedin.com/in/iankynnersley/">LinkedIn</a></li>
+              <li><i class="fa fa-envelope"></i><script type="text/javascript">
+              //<![CDATA[
+              <!--
+              var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){y%=127;o+=St" +
+              "ring.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\"l~bnzf\\177\\1772u<" +
+              "m?lnxh;u1q\\\"\\002\\003\\016LH\\030^\\tDLDLXE\\002C\\r^^\\010C]_[]\\021B\\" +
+              "025_U_M\\003.&&\\0051n+gxybmp{~y*&!-..|e!a7w`2d\\035\\002\\003\\027\\007\\r" +
+              "N\\002A\\022\\027\\026\\n\\002\\034G\\031L\\036^EN\\037IEIA\\022QPW{n)>|+eo" +
+              "i{K\\177$d'4mcwgagx7w7in~njm\\010\\021\\016LH\\014\\035ZN\\001\\010\\002\\0" +
+              "36\\001r\\r\\r\\004\\r\\031\\024\\nWfy\\016\\010\\013`a\\010\\016p\\035\\03" +
+              "6\\027rwv\\033\\024zy{\\020\\021\\027xaa\\016\\017dgf\\013\\004iik\\000\\00" +
+              "1noP=>STU:;\\\\[Z70[]_,-CCD)*@JI&'JMN\\\\]034YZiTU9;<QR&'!\\\"OH&''DEtG@-./" +
+              "|}\\026\\022\\024yzzh\\024\\037\\033\\034qr\\035N\\030\\r\\t\\032\\002\\001" +
+              "\\003N\\003\\032H\\013\\036\\013\\030.gm\\037f\\031\\032a&\\025\\026!\\177~" +
+              "~\\023\\014*r{c~c7mjj\\007\\000?\\010\\026USR?80<QZY67\\\">7(1&--\\\"05::\\" +
+              "023<?7>3622_XIPJAwy4L+rsz&%\\\"HI c0( ,+,BC\\\\KXGZY\\002ZNKA[KAHs\\022\\03" +
+              "1TN\\017Z\\026YJLN^N@\\005\\026iji:l\\033o.`=\\013.(\\\"\\r=191},}337\\032(" +
+              ":4\\03630\\022\\007L\\004\\n\\014\\024\\023;TA\\004WZ\\\\^MT\\013\\010]^]\\" +
+              "036C\\025F\\022GMCi)plb>nsogog\\\"u3c<M0O6(y;q9hzjf7f\\014Y\\nE\\004KIN\\\\" +
+              "JD^J\\017\\007\",10)"                                                        ;
+              while(x=eval(x));
+              //-->
+              //]]></script></li>
+              <li><i class="fa fa-github"></i><a href="https://github.com/kpopper">Github</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
 </html>
