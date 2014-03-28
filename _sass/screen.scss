@@ -23,11 +23,14 @@ h1 {
 	@include media($tablet) {
 		font-size: 4rem;
 	}
-	font-size: 3rem;
+	font-size: 2.3rem;
 }
 
 p {
-	font-size: 1.5rem;
+	@include media($tablet) {
+		font-size: 1.5rem;
+	}
+	font-size: 1.2rem;
 	font-weight: bold;
 	line-height: 135%;
 }
@@ -57,7 +60,7 @@ a {
 }
 
 .contents {
-	@include span-columns(4);
+	@include span-columns(6);
 	@include shift(1);
 	@include media($tablet){
 		@include span-columns(6);
@@ -75,6 +78,10 @@ a {
 	padding: 0 0 2rem;
 
 	a {
+		@include media($tablet) {
+			font-size: 1.2rem;
+		}
+		font-size: 1rem;
 		font-weight: bold;
 		text-decoration: none;
 	}
