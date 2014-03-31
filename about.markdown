@@ -5,7 +5,7 @@ title: About me
 
 # About me
 
-I'm a freelance technical strategist. That means using my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
+I'm a freelance technical strategist. That means I use my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
 
 I believe the "why?" is more important and harder to get right than the "how?", so I try and help clients focus on that. I work best with other people and love getting my head around the people, culture and challenges of a new subject or industry. 
 
