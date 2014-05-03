@@ -26,9 +26,29 @@ h1 {
 	font-size: 2.3rem;
 }
 
+h2 {
+	@include media($tablet) {
+		font-size: 3rem;
+	}
+	font-size: 2rem;
+}
+
+h3 {
+	@include media($tablet) {
+		font-size: 2rem;
+	}
+
+	font-size: 1.5rem;
+	margin-top: 4rem;
+}
+
 p {
 	@include media($tablet) {
 		font-size: 1.5rem;
+	}
+
+	&.meta {
+		font-size: 1rem;
 	}
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -41,6 +61,23 @@ a {
 	&:hover {
 		text-decoration: none;
 	}
+}
+
+ul {
+	li {
+		@include media($tablet) {
+			font-size: 1.5rem;
+		}
+		font-size: 1.2rem;
+		font-weight: bold;
+		line-height: 135%;
+		margin: 0;
+		padding: 0;
+	}
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .block {
@@ -74,7 +111,7 @@ a {
 
 .footer {
 	background: $alt-background-color;
-	margin-top: 1.5rem;
+	margin-top: 5rem;
 	padding: 0 0 2rem;
 
 	a {
@@ -89,7 +126,7 @@ a {
 	p {
 		font-size: 1.2rem;
 	}
-	
+
 	ul {
 		list-style-type: none;
 		margin: 0;
