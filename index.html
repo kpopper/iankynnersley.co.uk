@@ -10,13 +10,6 @@ title: Ian Kynnersley
   <p><a href="/about">You can read a bit more about me here.</a></p>
 </div>
 
-{% if site.posts.size > 0 %}
 <div id="blog">
-  <h3>Recent blog posts:</h3>
-  <ul class="posts">
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
+  <p>I've written my first blog post about <a href="/2014/05/19/dilemmas-of-a-consulting-cto">the dilemmas of a consulting CTO</a>. Follow-up posts will appear shortly.</p>
 </div>
-{% endif %}
