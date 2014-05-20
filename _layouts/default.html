@@ -27,8 +27,8 @@
             <div class="contents">
               <p>Get in touch:</p>
               <ul>
-              <li><i class="fa fa-twitter"></i><a href="https://twitter.com/kpopper">@kpopper</a></li>
-              <li><i class="fa fa-linkedin"></i><a href="http://uk.linkedin.com/in/iankynnersley/">LinkedIn</a></li>
+              <li><i class="fa fa-twitter"></i><a href="https://twitter.com/kpopper" onclick="trackOutboundLink('https://twitter.com/kpopper'); return false;">@kpopper</a></li>
+              <li><i class="fa fa-linkedin"></i><a href="http://uk.linkedin.com/in/iankynnersley/" onclick="trackOutboundLink('http://uk.linkedin.com/in/iankynnersley/'); return false;">LinkedIn</a></li>
               <li><i class="fa fa-envelope"></i><script type="text/javascript">
               //<![CDATA[
               <!--
@@ -52,7 +52,7 @@
               while(x=eval(x));
               //-->
               //]]></script></li>
-              <li><i class="fa fa-github"></i><a href="https://github.com/kpopper">Github</a></li>
+              <li><i class="fa fa-github"></i><a href="https://github.com/kpopper" onclick="trackOutboundLink('https://github.com/kpopper'); return false;">Github</a></li>
               </ul>
             </div>
           </div>
@@ -67,6 +67,14 @@
 
         ga('create', 'UA-12730811-1', 'iankynnersley.co.uk');
         ga('send', 'pageview');
+
+        var trackOutboundLink = function(url) {
+           ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+             function () {
+             document.location = url;
+             }
+           });
+        }
       </script>
     </body>
 </html>
