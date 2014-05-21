@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: About me
 ---
-
-# About me
 
 I'm a freelance technical strategist. That means I use my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
 
