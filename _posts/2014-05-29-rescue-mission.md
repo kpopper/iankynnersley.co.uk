@@ -5,7 +5,7 @@ title: Rescue mission
 
 Following on from my earlier post about [the dilemmas of a consulting CTO](/2014/05/19/dilemmas-of-a-consulting-cto/), I now want to look at what are the most important things to do for a company when a single day of your time represents an appreciable percentage of their available budget?
 
-It's important to strike a balance between addressing any business critical issues and moving the company in the right direction. This balance can be hard to find if there is no way of knowing if fixing the issues will break things further. 
+It's important to strike a balance between addressing any business critical issues and moving the company in the right direction. This balance can be hard to find if there is no way of knowing if fixing the issues will break things further.
 
 ## First steps
 
@@ -47,6 +47,8 @@ Now you can start to think about fixing some of those important bugs. Strongly e
 
 There are of course lots of other things to be done but its important to get things moving forward as quickly as possible.
 
-These things would involve reviewing the specific technology choices to make sure they're supporting rather than hampering development; thinking about performance and scaling issues, introducing analytics and metric tracking etc. 
+These things would involve reviewing the specific technology choices to make sure they're supporting rather than hampering development; thinking about performance and scaling issues, introducing analytics and metric tracking etc.
+
+Ultimately, all of this is about increasing the trust that the entire team has in the codebase, in the product and in the team's ability to make changes safely and move the product and the business forward. 
 
 Hopefully this is useful to anyone finding their startup in a difficult situation. Please [get in touch on Twitter](https://twitter.com/kpopper) if you have any questions or want to challenge any of this.
