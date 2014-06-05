@@ -442,62 +442,67 @@ h1 {
   }
 }
 
-/* line 29, ../_sass/screen.scss */
+/* line 31, ../_sass/screen.scss */
+article header h1 {
+  margin: 1rem 0;
+}
+
+/* line 37, ../_sass/screen.scss */
 h2 {
   font-size: 2rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 29, ../_sass/screen.scss */
+  /* line 37, ../_sass/screen.scss */
   h2 {
     font-size: 3rem;
   }
 }
 
-/* line 36, ../_sass/screen.scss */
+/* line 44, ../_sass/screen.scss */
 h3 {
   font-size: 1.5rem;
   margin-top: 4rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 36, ../_sass/screen.scss */
+  /* line 44, ../_sass/screen.scss */
   h3 {
     font-size: 2rem;
   }
 }
 
-/* line 45, ../_sass/screen.scss */
+/* line 53, ../_sass/screen.scss */
 p {
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 135%;
 }
 @media screen and (min-width: 480px) {
-  /* line 45, ../_sass/screen.scss */
+  /* line 53, ../_sass/screen.scss */
   p {
     font-size: 1.5rem;
   }
 }
-/* line 50, ../_sass/screen.scss */
+/* line 58, ../_sass/screen.scss */
 p.meta {
   font-size: 1rem;
 }
 
-/* line 58, ../_sass/screen.scss */
+/* line 66, ../_sass/screen.scss */
 a {
   color: #0b61a4;
 }
-/* line 61, ../_sass/screen.scss */
+/* line 69, ../_sass/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 66, ../_sass/screen.scss */
+/* line 74, ../_sass/screen.scss */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 67, ../_sass/screen.scss */
+/* line 75, ../_sass/screen.scss */
 ul li {
   font-size: 1.2rem;
   font-weight: bold;
@@ -506,13 +511,13 @@ ul li {
   padding: 0;
 }
 @media screen and (min-width: 480px) {
-  /* line 67, ../_sass/screen.scss */
+  /* line 75, ../_sass/screen.scss */
   ul li {
     font-size: 1.5rem;
   }
 }
 
-/* line 83, ../_sass/screen.scss */
+/* line 91, ../_sass/screen.scss */
 .block {
   *zoom: 1;
   display: block;
@@ -527,8 +532,8 @@ ul li {
   clear: both;
 }
 
-/* line 87, ../_sass/screen.scss */
-.site {
+/* line 95, ../_sass/screen.scss */
+.container {
   *zoom: 1;
   max-width: 48em;
   margin-left: auto;
@@ -536,28 +541,28 @@ ul li {
   max-width: 30em;
 }
 /* line 18, ../_sass/bourbon/addons/_clearfix.scss */
-.site:before, .site:after {
+.container:before, .container:after {
   content: " ";
   display: table;
 }
 /* line 23, ../_sass/bourbon/addons/_clearfix.scss */
-.site:after {
+.container:after {
   clear: both;
 }
 @media screen and (min-width: 480px) {
-  /* line 87, ../_sass/screen.scss */
-  .site {
+  /* line 95, ../_sass/screen.scss */
+  .container {
     max-width: 37.5em;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 87, ../_sass/screen.scss */
-  .site {
+  /* line 95, ../_sass/screen.scss */
+  .container {
     max-width: 48em;
   }
 }
 
-/* line 99, ../_sass/screen.scss */
+/* line 107, ../_sass/screen.scss */
 .contents {
   float: left;
   display: block;
@@ -570,7 +575,7 @@ ul li {
   margin-right: 0;
 }
 @media screen and (min-width: 480px) {
-  /* line 99, ../_sass/screen.scss */
+  /* line 107, ../_sass/screen.scss */
   .contents {
     float: left;
     display: block;
@@ -584,7 +589,7 @@ ul li {
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 99, ../_sass/screen.scss */
+  /* line 107, ../_sass/screen.scss */
   .contents {
     float: left;
     display: block;
@@ -598,44 +603,44 @@ ul li {
   }
 }
 
-/* line 112, ../_sass/screen.scss */
+/* line 120, ../_sass/screen.scss */
 .footer {
   background: #eeeeee;
   margin-top: 5rem;
   padding: 0 0 2rem;
 }
-/* line 117, ../_sass/screen.scss */
+/* line 125, ../_sass/screen.scss */
 .footer a {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
 }
 @media screen and (min-width: 480px) {
-  /* line 117, ../_sass/screen.scss */
+  /* line 125, ../_sass/screen.scss */
   .footer a {
     font-size: 1.2rem;
   }
 }
-/* line 126, ../_sass/screen.scss */
+/* line 134, ../_sass/screen.scss */
 .footer p {
   font-size: 1.2rem;
 }
-/* line 130, ../_sass/screen.scss */
+/* line 138, ../_sass/screen.scss */
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 135, ../_sass/screen.scss */
+/* line 143, ../_sass/screen.scss */
 .footer ul li {
   font-size: 1.2rem;
   line-height: 165%;
 }
-/* line 140, ../_sass/screen.scss */
+/* line 148, ../_sass/screen.scss */
 .footer ul .fa {
   width: 1.875em;
 }
-/* line 145, ../_sass/screen.scss */
+/* line 153, ../_sass/screen.scss */
 .footer .contact {
   *zoom: 1;
   max-width: 48em;

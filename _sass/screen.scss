@@ -26,6 +26,14 @@ h1 {
 	font-size: 2.3rem;
 }
 
+article {
+	header {
+		h1 {
+			margin: 1rem 0;
+		}
+	}
+}
+
 h2 {
 	@include media($tablet) {
 		font-size: 3rem;
@@ -84,7 +92,7 @@ ul {
 	@include row();
 }
 
-.site {
+.container {
 	@include outer-container();
 	@include media($tablet) {
 		max-width: em(600);
