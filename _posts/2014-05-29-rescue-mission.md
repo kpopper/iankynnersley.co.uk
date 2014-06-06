@@ -51,4 +51,4 @@ These things would involve reviewing the specific technology choices to make sur
 
 Ultimately, all of this is about increasing the trust that the entire team has in the codebase, in the product and in the team's ability to make changes safely and move the product and the business forward.
 
-Hopefully this is useful to anyone finding their startup in a difficult situation. Please [get in touch on Twitter](https://twitter.com/kpopper) if you have any questions or want to challenge any of this.
+I hope this is useful to anyone finding their startup in a difficult situation. Please [get in touch on Twitter](https://twitter.com/kpopper) (or using the links below) if you have any questions or feedback.
