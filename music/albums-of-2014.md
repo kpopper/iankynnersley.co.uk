@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Albums of 2014
 ---
 
