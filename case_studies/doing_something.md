@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Case study: Doing Something
+title: Case study - Doing Something
 ---
 
 Doing Something is a dating start-up that connects people who like doing the same kinds of things.
