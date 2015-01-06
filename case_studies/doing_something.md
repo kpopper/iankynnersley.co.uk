@@ -11,4 +11,4 @@ The founder came to me with a tiny budget and a broken but critical new version 
 
 I then persuaded him to find a more permanent team that were able to take payment in equity. 
 
-Website: http://www.doingsomething.co.uk/
+Website: [Doing Something](http://www.doingsomething.co.uk/)
