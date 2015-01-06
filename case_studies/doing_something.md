@@ -10,3 +10,5 @@ The site has existed for a little while but it was proving expensive to progress
 The founder came to me with a tiny budget and a broken but critical new version of the site. I documented the technology so that new developers could work on it, worked with him to define and prioritise the work to maximise the budget and helped him to find and coordinate a team that could fix the site.
 
 I then persuaded him to find a more permanent team that were able to take payment in equity. 
+
+Website: http://www.doingsomething.co.uk/
