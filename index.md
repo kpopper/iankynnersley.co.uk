@@ -5,11 +5,7 @@ title: Ian Kynnersley
 
 # Hello, I'm Ian
 
-I'm a Technology Lead.
-
-In other words I love helping people use technology to make great things.
-
-I work with startups and founders to help them build amazing product businesses one step at a time.
+I'm a technical lead who helps organisations big and small use technology to make great things.
 
 [You can read more about me here](/about)
 

@@ -3,12 +3,14 @@ layout: page
 title: About me
 ---
 
-I'm a freelance technical strategist. That means I use my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
+I'm an experienced technical lead managing cross-disciplinary teams to craft web and mobile products quickly using Lean and Agile techniques.
 
-I believe the "why?" is more important and harder to get right than the "how?", so I try and help clients focus on that. I work best with other people and love getting my head around the people, culture and challenges of a new subject or industry.
+I use my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
 
-Until recently, I was a Product Lead at [Sidekick Studios](http://www.sidekickstudios.net) where among other things I explored (and prototyped) the future of insurance, created a pilot mobile fundraising platform and conceived and built a collaboration service to help marginalised young people get the education they deserve.
+I believe the _why?_ is more important and harder to get right than the _how?_, so I focus on building a shared understanding of the problem and how we're solving it.
 
-At the same time I was working with colleagues to develop internal processes, find and win new work, and build and manage cross-disciplinary teams capable of delivering client projects.
+I work best with other people and love getting my head around the people, culture and challenges of a new subject or industry.
 
-I'm now available for hire so if any of this sounds useful, get in touch!
+My last few years have been spent making supply chains more transparent (as CTO at Provenance.org) and inventing all kinds of new products and services for organisations such as Vodafone, Barclaycard, Cancer Research UK, RSA, Flamingo International and many more.
+
+Wherever I work, I'm always heavily involved in continuously improving processes as well as building and managing cross-disciplinary teams of happy, productive people.
