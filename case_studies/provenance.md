@@ -3,14 +3,12 @@ layout: page
 title: Case study - Provenance
 ---
 
-Provenance is an early stage startup hoping to radically alter the way people spend their money by allowing brands and makers to be totally open about their products. 
+[Provenance](http://provenance.org/) is a technology startup empowering everyone to make more informed decisions about the things they buy by allowing businesses to be transparent with their customers about how their products are made.
 
-I got involved initially to help them figure out how the service could work for paying clients and partners and to work out the strategy for embedding the product information on other websites in useful ways.
+The web platform is used by hundreds of businesses from 1 person startups to the worlds largest consumer goods companies to capture data about the people and processes, locations and impact of their products and businesses and communicate this data on pack or embedded on websites, ecommerce and social media.
 
-The service revolves around telling stories and sharing data and we want that information to be available whenever people are making purchasing decisions and wherever makers and brands are interacting with their customers. 
+The software allows increased consumer trust by connecting supply chain businesses with 3rd parties such as certifiers and data providers and storing verified proof points on a [blockchain](https://www.provenance.org/technology) to ensure the integrity of the data.
 
-It has gone through a few iterations of the site while learning what customers, brands, makers, retailers all want from the service. I'm getting involved again now to plan the next, more permanent version of the service built around an API and integrating seemlessly with social and eCommerce platforms. 
+I got involved at a fairly early stage in the company's development to help them solve some specific technical challenges and to audit the technology their team were building. 
 
-My role includes working with the founder to shape the product strategy, technical architecture, road-mapping, hiring and managing the technical team and product management (story writing, backlog management).
-
-Website: [Provenance](http://provenance.org/)
+Over time my role grew to full-time CTO responsible for product and engineering. This included product and technical strategies and roadmaps, technical architecture, infrastructure and operations, hiring and team management and customer success. 
