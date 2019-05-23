@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Case study - Healthcare startup
+title: Case study - Raremark
 ---
 
-A London-based healthcare company needed a team to help them turn their startup idea into something tangible; to start to articulate and validate it with potential users and to help them get funding to develop the idea further.
+[Raremark](https://raremark.com/) A London-based healthcare company needed a team to help them turn their startup idea into something tangible; to start to articulate and validate it with potential users and to help them get funding to develop the idea further.
 
 I worked closely with a designer ([Simon I'Anson](http://www.simonianson.co.uk/)) and a user researcher ([Barbara Chicca](http://barbarachicca.com/)) to understand the founders' vision for the service and the user need, to speak to potential users about their lives and experiences and then to start to sketch out a community site and knowledge base that could offer real help to people in difficult circumstances.
 

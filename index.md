@@ -16,10 +16,10 @@ I specialise in turning business ideas into beautiful products.
 My experience encompasses technical, product and business which means I often play a different role on each project. It usually involves some combination of product management, technical leadership, team management and product strategy.
 
 Some recent projects I've worked on:
-* &raquo; [CTO at Provenance](/case_studies/provenance)
-* &raquo; [Product strategy for a new Healthcare Startup](/case_studies/healthcare-startup)
-* &raquo; [Product Owner for Adaptive Lab and Barclaycard](/case_studies/barclaycard)
-* &raquo; [Temporary CTO at Doing Something](/case_studies/doing_something)
+* &raquo; [CTO at Provenance](/case_studies/provenance) (2014 - 2019)
+* &raquo; [Product strategy at Raremark](/case_studies/raremark) (2015)
+* &raquo; [Product Owner at Adaptive Lab](/case_studies/adaptive_lab) (2014 - 2015)
+* &raquo; [Temporary CTO at Doing Something](/case_studies/doing_something) (2014)
 
 ## Writing
 
