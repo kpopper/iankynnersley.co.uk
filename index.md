@@ -13,9 +13,9 @@ I'm a technical lead who helps organisations big and small use technology to mak
 
 I specialise in turning business ideas into beautiful products.
 
-My experience encompasses technical, product and business which means I often play a different role on each project. It usually involves some combination of product management, technical leadership, team management and product strategy.
+My experience encompasses technical, product and business which means I often play a different role on each project. It usually involves some combination of technical leadership, team management, product management and product strategy.
 
-Some recent projects I've worked on:
+What I've been working on recently:
 * &raquo; [CTO at Provenance](/case_studies/provenance) (2014 - 2019)
 * &raquo; [Product strategy at Raremark](/case_studies/raremark) (2015)
 * &raquo; [Product Owner at Adaptive Lab](/case_studies/adaptive_lab) (2014 - 2015)
@@ -30,7 +30,3 @@ Occasional thoughts about startups and technology, usually intended for small te
 * &raquo; [{{ post.title }}]({{ post.url }})
   {%- endfor %}
 {% endif %}
-
-...and some music ramblings that don't really fit here:
-* &raquo; [My favourite releases from 2014](/music/albums-of-2014)
-* &raquo; [My 10 most influential albums](/music/10-most-influential-albums)
