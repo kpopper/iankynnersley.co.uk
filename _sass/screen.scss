@@ -118,16 +118,8 @@ ul {
 }
 
 .contents {
-	@include span-columns(6);
+	@include span-columns(10);
 	@include shift(1);
-	@include media($tablet){
-		@include span-columns(6);
-		@include shift(1);
-	}
-	@include media($full){
-		@include span-columns(10);
-		@include shift(1);
-	}
 }
 
 .footer {
