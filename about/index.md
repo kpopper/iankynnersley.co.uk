@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About me
+title: About | Ian Kynnersley, Freelance CTO
 ---
 
-I'm an experienced technical lead managing cross-disciplinary teams to craft web and mobile products quickly using Lean and Agile techniques.
+I'm a technical lead and CTO experienced in managing cross-disciplinary teams to craft web and mobile products quickly using Lean and Agile techniques.
 
 I use my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
 

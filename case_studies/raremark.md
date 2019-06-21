@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Case study - Raremark
+title: Case study - Product strategy at Raremark
 ---
 
 [Raremark](https://raremark.com/) A London-based healthcare company needed a team to help them turn their startup idea into something tangible; to start to articulate and validate it with potential users and to help them get funding to develop the idea further.

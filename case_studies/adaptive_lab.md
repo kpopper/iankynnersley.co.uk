@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Case study - Adaptive Lab
+title: Case study - Product Owner at Adaptive Lab
 ---
 
 I worked as a consultant Product Lead for innovation consultancy Adaptive Lab on 2 projects during 2014 and 2015.

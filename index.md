@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Ian Kynnersley
 ---
 
 # Hello, I'm Ian
 
-I'm a technical lead who helps organisations big and small use technology to make great things.
+I'm an experienced technical lead who helps organisations big and small use technology to make great things.
 
-[You can read more about me here](/about)
+[You can read more about me here](/about).
 
 ## Work
 
@@ -19,7 +18,7 @@ What I've been working on recently:
 * &raquo; [CTO at Provenance](/case_studies/provenance) (2014 - 2019)
 * &raquo; [Product strategy at Raremark](/case_studies/raremark) (2015)
 * &raquo; [Product Owner at Adaptive Lab](/case_studies/adaptive_lab) (2014 - 2015)
-* &raquo; [Temporary CTO at Doing Something](/case_studies/doing_something) (2014)
+* &raquo; [Freelance CTO at Doing Something](/case_studies/doing_something) (2014)
 
 ## Writing
 
