@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Case study - Provenance
+title: Case study - CTO at Provenance
 ---
 
 [Provenance](http://provenance.org/) is a technology startup empowering everyone to make more informed decisions about the things they buy by allowing businesses to be transparent with their customers about how their products are made.
