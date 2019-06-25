@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: kpopper/kpopper.github.io
+  branch: master
+  base_url: https://8jljbjqk21.execute-api.eu-west-2.amazonaws.com
+  auth_endpoint: /prod/auth
+
+dev_backend:
+  name: github
+  repo: kpopper/kpopper.github.io
+  branch: master
+  base_url: https://1g0ggak4gh.execute-api.eu-west-2.amazonaws.com
+  auth_endpoint: /dev/auth
+
+local_backend:
+  name: github
+  repo: kpopper/kpopper.github.io
+  branch: master
+  base_url: http://localhost:3000
+  auth_endpoint: /auth
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# This line should *not* be indented
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
