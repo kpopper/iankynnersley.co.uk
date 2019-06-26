@@ -1,3 +1,5 @@
+site_url: https://www.iankynnersley.co.uk/
+
 backend:
   name: github
   repo: kpopper/kpopper.github.io
@@ -26,6 +28,21 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: index
+        label: Home page
+        file: index.md
+        fields:
+          - {name: body, label: Main content, widget: markdown}
+      - name: about
+        label: About
+        file: about/index.md
+        preview_path: about
+        fields:
+          - {name: title, label: Title, widget: string}
+          - {name: body, label: Main content, widget: markdown}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
