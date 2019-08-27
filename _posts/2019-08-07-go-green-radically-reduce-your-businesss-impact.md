@@ -15,4 +15,4 @@ Businesses have an outsized role to play in addressing the climate crisis and on
 
 Many companies do not realise that, not only do [zero-carbon hosting options exist](https://www.thegreenwebfoundation.org/directory/), many of the biggest hosting providers ([Amazon](https://aws.amazon.com/about-aws/sustainability/) and [Google](https://cloud.google.com/sustainability/)) provide them out of the box in certain circumstances. While migrating to a new host might seem like a daunting task, for businesses that already host in the cloud, using modern operational practices, the change might be simpler than they think and, with some help, can be managed in parallel to business-critical product development efforts with little-to-no impact on delivery.
 
-If you'd like to know more about how your business can contribute to a sustainable, liveable future on earth, [get in touch now](mailto:hello+blog@iankynnersley.co.uk).
+If you'd like to know more about how your business can contribute to a sustainable, liveable future on earth, [get in touch now](mailto:hello+green@iankynnersley.co.uk).
