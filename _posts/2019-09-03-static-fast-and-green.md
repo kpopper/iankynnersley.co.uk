@@ -3,11 +3,11 @@ layout: post
 title: 'Static, Fast and Green!'
 date: 2019-09-03T16:24:45.075Z
 ---
-Static websites are all the rage at the moment, and rightly so. There are a growing number of static site generators and some acceptable content management systems that broaden the appeal of static websites well beyond their initial developer user base.
+Static websites are all the rage at the moment, and rightly so. There are a growing number of static site generators and a handful of decent content management systems that broaden their appeal well beyond the initial developer user base.
 
-Static sites can be hosted _very_ cheaply (often for free), require no high-spec servers and can even be served from basic [web-enabled file storage services](https://aws.amazon.com/s3/). 
+Static sites don't have the cost and administrative hassle associated with most web hosting and in fact can often be hosted for free.
 
-They are also incredibly fast. With no database connections and no servers generating HTML they load many times faster than dynamically-generated websites a server can respond immediately. Even better, entire pages can be cached and delivered from CDN servers across the globe an order of magnitude faster again.
+They are also incredibly fast. With no database connections and computation they load many times faster than dynamically-generated websites. Even better, entire pages can be cached and delivered from CDN servers across the globe meaning near-instantaneous loading anywhere in the world.
 
 All of this has a massive but largely un-celebrated side effect: static websites consume **vastly less energy** than other websites. This is great news for helping address the climate emergency but can we go a step further?
 
