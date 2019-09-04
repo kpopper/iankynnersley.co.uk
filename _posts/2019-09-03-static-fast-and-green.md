@@ -25,7 +25,9 @@ Cloudflare is a powerful tool that makes it easy to manage domain names and SSL 
 
 Excitingly, Cloudflare have announced that [all their servers are now powered with renewable energy](https://blog.cloudflare.com/the-climate-and-cloudflare/)! 
 
+NB: this approach requires a concession on security. S3 cannot host SSL certificates which means that it is not possible to secure the connection between Cloudflare and S3 without introducing another tool (such as CloudFront). With SSL between the user and Cloudflare, this is fine for most public static sites as any user data will be handled via alternative routes.
+
 ### Conclusion
 This combination of S3 and Cloudflare can give you a fully green hosted website that loads at lightning speed anywhere in the world. It is also optimised to minimise the energy used to build and transfer the website every time it's viewed.
 
-If you want to suggest an improvement to this setup, feel free to [get in touch](mailto:hello+green@iankynnersley.co.uk).
+To find out more about the impact of your website and how to reduce it,  [get in touch](mailto:hello+green@iankynnersley.co.uk).
