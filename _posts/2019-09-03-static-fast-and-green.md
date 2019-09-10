@@ -13,7 +13,13 @@ All of this has a massive but largely un-celebrated side effect: static websites
 
 I've been exploring ways to host static sites (like this one) on 100% green servers and have settled on a setup I'm fairly happy with.
 
-### AWS S3
+## Cloudflare CDN
+
+Cloudflare is a powerful tool that makes it easy to manage domain names and SSL certificates. It also has an amazing trick up its sleeve: any traffic routed through them is cached through their CDN. This means that for free (on small websites) and with no setup, entire static websites can be cached across Cloudflare's global network of CDN servers.
+
+Excitingly, Cloudflare have announced that [all their servers are now powered with renewable energy](https://blog.cloudflare.com/the-climate-and-cloudflare/)! 
+
+## AWS S3
 
 The _static web hosting_ option on an S3 bucket allows you to turn a directory of files into a static website. A site built with any static site generator (SSG) can be uploaded to an S3 bucket and hosted for a handful of cents a year. 
 
@@ -21,17 +27,15 @@ While Amazon has some distance to go on its sustainability journey, it does powe
 
 To make hosting on S3 a bit simpler, it is possible to set up a [CodePipeline](https://aws.amazon.com/codepipeline/) that will automatically deploy updates from Github to your S3 bucket every time you make a change.
 
-### Cloudflare CDN
+## Considerations
 
-Cloudflare is a powerful tool that makes it easy to manage domain names and SSL certificates. It also has an amazing trick up its sleeve: any traffic routed through them is cached through their CDN. This means that for free (on small websites) and with no setup, entire static websites can be cached across Cloudflare's global network of CDN servers.
+Google Cloud Storage is another option for green static website hosting - offering a like-for-like replacement for S3.
 
-Excitingly, Cloudflare have announced that [all their servers are now powered with renewable energy](https://blog.cloudflare.com/the-climate-and-cloudflare/)! 
+It is worth highlighting that both S3 and GCS require a concession on security. Both provide simple file storage and, as such, cannot host SSL certificates. This means that it is not possible to secure the connection between Cloudflare and the S3 / GCS without introducing another tool (such as CloudFront). With SSL between the user and Cloudflare, this is fine for most public static sites as any user data will be handled via alternative routes.
 
-NB: this approach requires a concession on security. S3 cannot host SSL certificates which means that it is not possible to secure the connection between Cloudflare and S3 without introducing another tool (such as CloudFront). With SSL between the user and Cloudflare, this is fine for most public static sites as any user data will be handled via alternative routes.
+NB: I’m investigating whether Google's CDN Interconnect might solve this by facilitating end-to-end HTTPS.
 
-NB: I’m investigating a possible alternative using Google Cloud Storage via CDN Interconnect that might remove the HTTPS issues 
-
-### Conclusion
+## Conclusion
 
 This combination of S3 and Cloudflare can give you a fully green hosted website that loads at lightning speed anywhere in the world. It is also optimised to minimise the energy used to build and transfer the website every time it's viewed.
 
