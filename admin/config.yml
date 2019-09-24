@@ -43,6 +43,13 @@ collections:
         fields:
           - {name: title, label: Title, widget: string}
           - {name: body, label: Main content, widget: markdown}
+      - name: green
+        label: green
+        file: green/index.md
+        preview_path: green
+        fields:
+          - {name: title, label: Title, widget: string}
+          - {name: body, label: Main content, widget: markdown}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
