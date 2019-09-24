@@ -6,6 +6,8 @@ layout: default
 
 I'm an experienced technical lead who helps organisations big and small use technology to make great things.
 
+<span class="green">I'm currently helping businesses reduce their environmental impact by cleaning up their tech. [Find out more here](/green).</span>
+
 [You can read more about me here](/about).
 
 ## Work
