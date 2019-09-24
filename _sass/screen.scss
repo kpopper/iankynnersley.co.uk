@@ -15,8 +15,36 @@
 @import "fonts";
 
 body {
-	background: white;
-	font-family: 'sinanova-regularregular', Times, "Times New Roman", serif;
+	background: $background-color;
+	font-family: $base-font-family;
+}
+
+fieldset {
+	@include media($tablet) {
+		flex-direction: row;
+
+		input {
+			margin-right: 16px;
+		}
+	}
+
+	border: none;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+
+	input {
+		margin-bottom: 16px;
+	}
+}
+
+input,
+label,
+select {
+	display: block;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
 }
 
 a {
@@ -158,6 +186,11 @@ ul {
 	.contact {
 		@include outer-container();
 	}
+}
+
+.green {
+	display: block;
+	background-color: $green-background-color;
 }
 
 .group:after {
