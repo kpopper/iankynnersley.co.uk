@@ -9,6 +9,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:300,300i&display=swap");
 /* line 11, ../_sass/normalize.scss */
 article,
 aside,
@@ -417,17 +418,10 @@ table {
  *
  *
  */
-@font-face {
-  font-family: 'sinanova-regularregular';
-  src: url("/assets/fonts/sinanova_regular/SinaNovaReg-webfont.eot");
-  src: url("/assets/fonts/sinanova_regular/SinaNovaReg-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/sinanova_regular/SinaNovaReg-webfont.woff") format("woff"), url("/assets/fonts/sinanova_regular/SinaNovaReg-webfont.ttf") format("truetype"), url("/assets/fonts/sinanova_regular/SinaNovaReg-webfont.svg#sinanova-regularregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /* line 17, ../_sass/screen.scss */
 body {
   background: #fff;
-  font-family: "sinanova-regularregular", Times, "Times New Roman", serif;
+  font-family: "Open Sans", serif;
 }
 
 /* line 22, ../_sass/screen.scss */
@@ -458,8 +452,8 @@ input,
 label,
 select {
   display: block;
-  font-family: "sinanova-regularregular", Times, "Times New Roman", serif;
-  font-size: 1.2rem;
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
 }
 
 /* line 50, ../_sass/screen.scss */
@@ -485,6 +479,7 @@ article ul li {
 
 /* line 74, ../_sass/screen.scss */
 h1 {
+  font-family: "Merriweather", serif;
   font-size: 2.3rem;
 }
 @media screen and (min-width: 480px) {
@@ -494,74 +489,76 @@ h1 {
   }
 }
 
-/* line 81, ../_sass/screen.scss */
+/* line 82, ../_sass/screen.scss */
 h2 {
+  font-family: "Merriweather", serif;
   font-size: 2rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 81, ../_sass/screen.scss */
+  /* line 82, ../_sass/screen.scss */
   h2 {
     font-size: 3rem;
   }
 }
 
-/* line 88, ../_sass/screen.scss */
+/* line 90, ../_sass/screen.scss */
 h3 {
+  font-family: "Merriweather", serif;
   font-size: 1.5rem;
   margin-top: 4rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 88, ../_sass/screen.scss */
+  /* line 90, ../_sass/screen.scss */
   h3 {
     font-size: 2rem;
   }
 }
 
-/* line 97, ../_sass/screen.scss */
+/* line 100, ../_sass/screen.scss */
 iframe {
   float: left;
   margin-right: 2rem;
 }
 
-/* line 102, ../_sass/screen.scss */
+/* line 105, ../_sass/screen.scss */
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 135%;
 }
 @media screen and (min-width: 480px) {
-  /* line 102, ../_sass/screen.scss */
+  /* line 105, ../_sass/screen.scss */
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
-/* line 107, ../_sass/screen.scss */
+/* line 110, ../_sass/screen.scss */
 p.meta {
   font-size: 1rem;
 }
 
-/* line 115, ../_sass/screen.scss */
+/* line 118, ../_sass/screen.scss */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 116, ../_sass/screen.scss */
+/* line 119, ../_sass/screen.scss */
 ul li {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 135%;
   margin: 0;
   padding: 0;
 }
 @media screen and (min-width: 480px) {
-  /* line 116, ../_sass/screen.scss */
+  /* line 119, ../_sass/screen.scss */
   ul li {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
-/* line 132, ../_sass/screen.scss */
+/* line 135, ../_sass/screen.scss */
 .block {
   *zoom: 1;
   display: block;
@@ -576,7 +573,7 @@ ul li {
   clear: both;
 }
 
-/* line 136, ../_sass/screen.scss */
+/* line 139, ../_sass/screen.scss */
 .container {
   *zoom: 1;
   max-width: 48em;
@@ -594,19 +591,19 @@ ul li {
   clear: both;
 }
 @media screen and (min-width: 480px) {
-  /* line 136, ../_sass/screen.scss */
+  /* line 139, ../_sass/screen.scss */
   .container {
     max-width: 37.5em;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 136, ../_sass/screen.scss */
+  /* line 139, ../_sass/screen.scss */
   .container {
     max-width: 48em;
   }
 }
 
-/* line 148, ../_sass/screen.scss */
+/* line 151, ../_sass/screen.scss */
 .contents {
   float: left;
   display: block;
@@ -619,44 +616,44 @@ ul li {
   margin-right: 0;
 }
 
-/* line 153, ../_sass/screen.scss */
+/* line 156, ../_sass/screen.scss */
 .footer {
   background: #eee;
   margin-top: 5rem;
   padding: 0 0 2rem;
 }
-/* line 158, ../_sass/screen.scss */
+/* line 161, ../_sass/screen.scss */
 .footer a {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
 }
 @media screen and (min-width: 480px) {
-  /* line 158, ../_sass/screen.scss */
+  /* line 161, ../_sass/screen.scss */
   .footer a {
     font-size: 1.2rem;
   }
 }
-/* line 167, ../_sass/screen.scss */
+/* line 170, ../_sass/screen.scss */
 .footer p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
-/* line 171, ../_sass/screen.scss */
+/* line 174, ../_sass/screen.scss */
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 176, ../_sass/screen.scss */
+/* line 179, ../_sass/screen.scss */
 .footer ul li {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 165%;
 }
-/* line 181, ../_sass/screen.scss */
+/* line 184, ../_sass/screen.scss */
 .footer ul .fa {
   width: 1.875em;
 }
-/* line 186, ../_sass/screen.scss */
+/* line 189, ../_sass/screen.scss */
 .footer .contact {
   *zoom: 1;
   max-width: 48em;
@@ -673,13 +670,13 @@ ul li {
   clear: both;
 }
 
-/* line 191, ../_sass/screen.scss */
+/* line 194, ../_sass/screen.scss */
 .green {
-  display: block;
   background-color: #E6EFC2;
+  display: block;
 }
 
-/* line 196, ../_sass/screen.scss */
+/* line 199, ../_sass/screen.scss */
 .group:after {
   content: "";
   display: table;

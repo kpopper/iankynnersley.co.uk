@@ -75,6 +75,7 @@ h1 {
 	@include media($tablet) {
 		font-size: 4rem;
 	}
+	font-family: $header-font-family;
 	font-size: 2.3rem;
 }
 
@@ -82,6 +83,7 @@ h2 {
 	@include media($tablet) {
 		font-size: 3rem;
 	}
+	font-family: $header-font-family;
 	font-size: 2rem;
 }
 
@@ -90,6 +92,7 @@ h3 {
 		font-size: 2rem;
 	}
 
+	font-family: $header-font-family;
 	font-size: 1.5rem;
 	margin-top: 4rem;
 }
@@ -101,13 +104,13 @@ iframe {
 
 p {
 	@include media($tablet) {
-		font-size: 1.5rem;
+		font-size: $tablet-font-size;
 	}
 
 	&.meta {
 		font-size: 1rem;
 	}
-	font-size: 1.2rem;
+	font-size: $base-font-size;
 	font-weight: bold;
 	line-height: 135%;
 }
@@ -115,9 +118,9 @@ p {
 ul {
 	li {
 		@include media($tablet) {
-			font-size: 1.5rem;
+			font-size: $tablet-font-size;
 		}
-		font-size: 1.2rem;
+		font-size: $base-font-size;
 		font-weight: bold;
 		line-height: 135%;
 		margin: 0;
@@ -165,7 +168,7 @@ ul {
 	}
 
 	p {
-		font-size: 1.2rem;
+		font-size: $base-font-size;
 	}
 
 	ul {
@@ -174,7 +177,7 @@ ul {
 		padding: 0;
 
 		li {
-			font-size: 1.2rem;
+			font-size: $base-font-size;
 			line-height: 165%;
 		}
 
@@ -189,8 +192,8 @@ ul {
 }
 
 .green {
-	display: block;
 	background-color: $green-background-color;
+	display: block;
 }
 
 .group:after {
