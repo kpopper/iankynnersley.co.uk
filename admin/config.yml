@@ -2,21 +2,21 @@ site_url: https://www.iankynnersley.co.uk/
 
 backend:
   name: github
-  repo: kpopper/kpopper.github.io
+  repo: kpopper/iankynnersley.co.uk
   branch: master
-  base_url: https://8jljbjqk21.execute-api.eu-west-2.amazonaws.com
+  base_url: https://ef09yvlmul.execute-api.eu-west-1.amazonaws.com
   auth_endpoint: /prod/auth
 
 dev_backend:
   name: github
-  repo: kpopper/kpopper.github.io
+  repo: kpopper/iankynnersley.co.uk
   branch: master
-  base_url: https://1g0ggak4gh.execute-api.eu-west-2.amazonaws.com
+  base_url: https://dt9nql0k46.execute-api.eu-west-1.amazonaws.com
   auth_endpoint: /dev/auth
 
 local_backend:
   name: github
-  repo: kpopper/kpopper.github.io
+  repo: kpopper/iankynnersley.co.uk
   branch: master
   base_url: http://localhost:3000
   auth_endpoint: /auth
