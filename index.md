@@ -2,21 +2,21 @@
 layout: default
 ---
 
-# Hello, I'm Ian
+<div class="intro">
+  <img src="images/avatar.png" alt="Ian Kynnersley">
 
-I'm an experienced technical lead who helps organisations big and small use technology to make great things.
+  <h1>Hello,<br>I'm Ian</h1>
+</div>
 
-<span class="green">I'm currently helping businesses reduce their environmental impact by cleaning up their tech. [Find out more here](/green).</span>
+I'm an experienced technical leader and startup CTO who helps organisations big and small use technology to make great things.
 
 [You can read more about me here](/about).
 
 ## Work
 
-I specialise in turning business ideas into beautiful products.
+I specialise in turning business ideas into beautiful products. Here are some of the projects I've been working on in recent years:
 
-My experience encompasses technical, product and business which means I often play a different role on each project. It usually involves some combination of technical leadership, team management, product management and product strategy.
-
-What I've been working on recently:
+* &raquo; Technical Lead at Overlay (2019 - 2020) – case study coming soon
 * &raquo; [CTO at Provenance](/case_studies/provenance) (2014 - 2019)
 * &raquo; [Product strategy at Raremark](/case_studies/raremark) (2015)
 * &raquo; [Product Owner at Adaptive Lab](/case_studies/adaptive_lab) (2014 - 2015)
@@ -25,7 +25,7 @@ What I've been working on recently:
 ## Writing
 
 Occasional thoughts about startups and technology, usually intended for small tech business owners:
-  
+
 {% if site.posts.size > 0 %}
   {% for post in site.posts %}
 * &raquo; [{{ post.title }}]({{ post.url }})

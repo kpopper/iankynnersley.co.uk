@@ -480,24 +480,24 @@ article ul li {
 /* line 74, ../_sass/screen.scss */
 h1 {
   font-family: "Merriweather", serif;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   /* line 74, ../_sass/screen.scss */
   h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 }
 
 /* line 82, ../_sass/screen.scss */
 h2 {
   font-family: "Merriweather", serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 @media screen and (min-width: 480px) {
   /* line 82, ../_sass/screen.scss */
   h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -510,7 +510,7 @@ h3 {
 @media screen and (min-width: 480px) {
   /* line 90, ../_sass/screen.scss */
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -617,43 +617,71 @@ ul li {
 }
 
 /* line 156, ../_sass/screen.scss */
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 600px) {
+  /* line 156, ../_sass/screen.scss */
+  .intro {
+    margin-top: 2em;
+  }
+}
+/* line 163, ../_sass/screen.scss */
+.intro h1 {
+  flex: auto;
+}
+/* line 167, ../_sass/screen.scss */
+.intro img {
+  flex: none;
+  height: 8em;
+  margin-right: 1em;
+}
+@media screen and (min-width: 600px) {
+  /* line 167, ../_sass/screen.scss */
+  .intro img {
+    height: 12em;
+  }
+}
+
+/* line 178, ../_sass/screen.scss */
 .footer {
   background: #eee;
   margin-top: 5rem;
   padding: 0 0 2rem;
 }
-/* line 161, ../_sass/screen.scss */
+/* line 183, ../_sass/screen.scss */
 .footer a {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
 }
 @media screen and (min-width: 480px) {
-  /* line 161, ../_sass/screen.scss */
+  /* line 183, ../_sass/screen.scss */
   .footer a {
     font-size: 1.2rem;
   }
 }
-/* line 170, ../_sass/screen.scss */
+/* line 192, ../_sass/screen.scss */
 .footer p {
   font-size: 1rem;
 }
-/* line 174, ../_sass/screen.scss */
+/* line 196, ../_sass/screen.scss */
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 179, ../_sass/screen.scss */
+/* line 201, ../_sass/screen.scss */
 .footer ul li {
   font-size: 1rem;
   line-height: 165%;
 }
-/* line 184, ../_sass/screen.scss */
+/* line 206, ../_sass/screen.scss */
 .footer ul .fa {
   width: 1.875em;
 }
-/* line 189, ../_sass/screen.scss */
+/* line 211, ../_sass/screen.scss */
 .footer .contact {
   *zoom: 1;
   max-width: 48em;
@@ -670,13 +698,13 @@ ul li {
   clear: both;
 }
 
-/* line 194, ../_sass/screen.scss */
+/* line 216, ../_sass/screen.scss */
 .green {
   background-color: #E6EFC2;
   display: block;
 }
 
-/* line 199, ../_sass/screen.scss */
+/* line 221, ../_sass/screen.scss */
 .group:after {
   content: "";
   display: table;

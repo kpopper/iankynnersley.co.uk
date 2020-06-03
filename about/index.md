@@ -14,3 +14,5 @@ I work best with other people and love getting my head around the people, cultur
 My last few years have been spent making supply chains more transparent (as CTO at Provenance.org) and inventing all kinds of new products and services for organisations such as Vodafone, Barclaycard, Cancer Research UK, RSA, Flamingo International and many more.
 
 Wherever I work, I'm always heavily involved in continuously improving processes as well as building and managing cross-disciplinary teams of happy, productive people.
+
+For more info <a href="http://uk.linkedin.com/in/iankynnersley/" onclick="trackOutboundLink('http://uk.linkedin.com/in/iankynnersley/'); return false;">see my LinkedIn profile</a>.
