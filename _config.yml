@@ -12,4 +12,6 @@ jailed: false
 theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
 permalink: pretty
+sass:
+  style: compressed
 # markdown: redcarpet
