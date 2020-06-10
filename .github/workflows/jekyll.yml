@@ -13,13 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - name: Setup Ruby environment with ruby-build
-      uses: clupprich/ruby-build-action@v1.3.0
+    - name: Set up Ruby 2.6.5
+      uses: actions/setup-ruby@v1
       with:
-        # Ruby version
         ruby-version: 2.6.5
-        # Flag if the Ruby installation is cached
-        cache-available: true
     - name: Install dependencies
       run: |
         gem install bundler
