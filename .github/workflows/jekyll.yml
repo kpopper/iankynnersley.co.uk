@@ -12,9 +12,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@master
+    - name: Setup Ruby environment with ruby-build
+      uses: clupprich/ruby-build-action@v1.3.0
+      with:
+        # Ruby version
+        ruby-version: 2.6.5
+        # Flag if the Ruby installation is cached
+        cache-available: true
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
     - name: Build the site in the jekyll/builder container
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        bundle exec jekyll build
+        aws s3 sync _site/ s3://www.iankynnersley.co.uk
+      # docker run \
+      #-v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+      # jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
