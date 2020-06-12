@@ -11,6 +11,8 @@
 body {
 	background: $background-color;
 	font-family: $base-font-family;
+	font-weight: $base-font-weight;
+	color: $text-color;
 }
 
 fieldset {
@@ -38,7 +40,9 @@ label,
 select {
 	display: block;
 	font-family: $base-font-family;
+	font-weight: $base-font-weight;
 	font-size: $base-font-size;
+	font-style: normal;
 }
 
 a {
@@ -74,7 +78,7 @@ h1 {
 }
 
 h2 {
-	@include media($tablet) {
+	@include media($full) {
 		font-size: 2.4rem;
 	}
 	font-family: $header-font-family;
@@ -82,7 +86,7 @@ h2 {
 }
 
 h3 {
-	@include media($tablet) {
+	@include media($full) {
 		font-size: 1.8rem;
 	}
 
@@ -102,28 +106,29 @@ p {
 	}
 
 	&.meta {
-		font-size: 1rem;
+		font-size: $base-font-size;
 	}
 	font-size: $base-font-size;
-	font-weight: bold;
-	line-height: 135%;
+	font-style: normal;
+	line-height: 1.49em;
 }
 
 ul {
+	&.freestyle {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
 	li {
 		@include media($tablet) {
 			font-size: $tablet-font-size;
 		}
 		font-size: $base-font-size;
-		font-weight: bold;
 		line-height: 135%;
 		margin: 0;
 		padding: 0;
 	}
-
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
 .block {
