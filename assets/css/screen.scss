@@ -53,22 +53,6 @@ a {
 	}
 }
 
-article {
-	header {
-		h1 {
-			margin: 1rem 0;
-		}
-	}
-	ul {
-		li {
-			font-style: italic;
-			list-style-position: outside;
-			list-style-type: disc;
-			margin-left: 1em;
-		}
-	}
-}
-
 h1 {
 	@include media($full) {
 		font-size: 3.2rem;
@@ -131,8 +115,13 @@ ul {
 		font-size: $base-font-size;
 		line-height: 135%;
 		margin: 0;
-		padding: 0;
+		padding: 0.2rem 0;
 	}
+}
+
+blockquote {
+	color: #666666;
+	font-style: italic;
 }
 
 .block {

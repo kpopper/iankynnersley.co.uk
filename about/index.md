@@ -3,16 +3,27 @@ layout: page
 title: About me
 ---
 
-I'm a technical lead and CTO experienced in managing cross-disciplinary teams to craft web and mobile products quickly using Lean and Agile techniques.
+I have over 8 years of technical leadership experience building new products and services with startups, charities and enterprise organisations.
 
-I use my background in building internet / mobile things to help people with great ideas use the most appropriate technology in the right way to be successful.
+I help teams ship digital products and services that users and customers value.
 
-I believe the _why?_ is more important and harder to get right than the _how?_, so I focus on building a shared understanding of the problem and how we're solving it.
+> "Ian was instrumental in helping me take the business from early prototype to a platform serving hundreds of businesses" - Founder & CEO at Provenance
 
-I work best with other people and love getting my head around the people, culture and challenges of a new subject or industry.
+I establish lean product discovery processes that ensure features with the highest impact are prioritised and I build and organise teams to get those features into the hands of users as quickly as possible.
 
-My last few years have been spent making supply chains more transparent (as CTO at Provenance.org) and inventing all kinds of new products and services for organisations such as Vodafone, Barclaycard, Cancer Research UK, RSA, Flamingo International and many more.
+I also work with business leaders to develop technology strategies and roadmaps to keep everyone in the loop.
 
-Wherever I work, I'm always heavily involved in continuously improving processes as well as building and managing cross-disciplinary teams of happy, productive people.
+I value happy, healthy, diverse and inclusive teams that work collaboratively and autonomously to solve problems and iterate quickly.
 
-For more info <a href="http://uk.linkedin.com/in/iankynnersley/" onclick="trackOutboundLink('http://uk.linkedin.com/in/iankynnersley/'); return false;">see my LinkedIn profile</a>.
+> "The nicest guy in tech" - former colleague
+
+Here are some of the ways I can help organisations:
+
+* Provide technical consultation and advice to early stage founders
+* Unblock product or engineering teams that are struggling to get products out of the door
+* Help re-shape teams and departments to facilitate better inter-disciplinary collaboration – e.g. between design and development
+* Plan for migrating infrastructure to a new cloud environment
+* Help define an appropriate target architecture for a maturing product
+* Perform a technical spike to investigate the potential for a new technology
+* Advise on managing client projects alongside core product development
+* Join in a CTO or Technical Lead role
