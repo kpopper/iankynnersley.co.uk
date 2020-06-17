@@ -35,4 +35,5 @@ jobs:
       uses: 3stacks/cloudflare-purge-cache-action@v1.0.6
       with:
         authToken: ${{ secrets.CLOUDFLARE_AUTH_TOKEN }}
+        authEmail: ${{ secrets.CLOUDFLARE_AUTH_EMAIL }}
         siteName: iankynnersley.co.uk
