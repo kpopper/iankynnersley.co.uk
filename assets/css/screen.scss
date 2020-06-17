@@ -59,6 +59,7 @@ h1 {
 	}
 	font-family: $header-font-family;
 	font-size: 2.4rem;
+	margin: 1.8rem 0 1.2rem;
 }
 
 h2 {
@@ -74,7 +75,7 @@ h3 {
 		font-size: $large-body-font-size;
 	}
 
-	font-size: 1.5rem;
+	font-size: $tablet-font-size;
 	font-weight: 300;
 	line-height: 1.49em;
 }
@@ -120,8 +121,14 @@ ul {
 }
 
 blockquote {
+	@include media($tablet) {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
 	color: #666666;
 	font-style: italic;
+	margin-left: 1rem;
+	margin-right: 0;
 }
 
 .block {
@@ -141,13 +148,16 @@ blockquote {
 }
 
 .contents {
-	@include span-columns(10);
+	@include span-columns(14);
 	@include shift(1);
 }
 
 .footer {
+	@include media($full) {
+		margin-top: 5rem;
+	}
 	background: $alt-background-color;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	padding: 0 0 2rem;
 
 	a {
@@ -169,7 +179,7 @@ blockquote {
 
 		li {
 			font-size: $base-font-size;
-			line-height: 165%;
+			line-height: normal;
 		}
 
 		.fa {
@@ -185,12 +195,17 @@ blockquote {
 .intro {
 	display: flex;
 	flex-direction: row;
+	margin-top: 2em;
 	@include media($full) {
-		margin-top: 2em;
+		margin-bottom: 2em;
 	}
 
 	h1 {
 		flex: auto;
+		margin-bottom: 0;
+		@include media($full) {
+
+		}
 	}
 
 	img {

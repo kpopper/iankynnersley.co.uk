@@ -2,9 +2,9 @@
 
 $visual-grid: false;
 
-$grid-columns: 12;
+$grid-columns: 16;
 $max-width: em(768);
 
 // breakpoints
-$tablet: new-breakpoint(min-width 480px 12);
-$full: new-breakpoint(min-width 600px 12);
+$tablet: new-breakpoint(min-width 480px 16);
+$full: new-breakpoint(min-width 600px 16);
