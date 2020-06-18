@@ -31,9 +31,8 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
         aws s3 sync _site/ s3://www.iankynnersley.co.uk
-    - name: Purge Cloudflare cache
-      uses: 3stacks/cloudflare-purge-cache-action@v1.0.6
-      with:
-        authToken: ${{ secrets.CLOUDFLARE_AUTH_TOKEN }}
-        authEmail: ${{ secrets.CLOUDFLARE_AUTH_EMAIL }}
-        siteName: iankynnersley.co.uk
+    - name: Cloudflare Purge Cache
+      uses: jakejarvis/cloudflare-purge-action@v0.3.0
+      env:
+        CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_AUTH_TOKEN }}
