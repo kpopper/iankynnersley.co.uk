@@ -29,6 +29,11 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        # This ENV var apparently prevents the AWS sync error 255
+        # https://github.com/actions/checkout/issues/440#issuecomment-854240996
+        #
+        # Alternatively, try specifying ubuntu-18.04 above
+        AWS_EC2_METADATA_DISABLED: true
       run: |
         aws s3 sync _site/ s3://www.iankynnersley.co.uk
     - name: Cloudflare Purge Cache
