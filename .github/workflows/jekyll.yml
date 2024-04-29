@@ -14,12 +14,12 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: 2.6.7 # last version of 2.6.x
     - name: Install dependencies
       run: |
-        gem install bundler
+        gem install bundler -v 2.4.22
         bundle install
     - name: Build the site in the jekyll/builder container
       run: |
