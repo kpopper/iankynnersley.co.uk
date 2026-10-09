@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="intro">
-  <img src="/images/avatar.png" alt="Ian Kynnersley">
+  <img src="images/avatar.png" alt="Ian Kynnersley">
 
   <h1>Hello,<br>I'm Ian</h1>
 </div>
