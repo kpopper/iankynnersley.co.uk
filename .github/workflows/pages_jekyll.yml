@@ -9,7 +9,7 @@ name: Deploy Jekyll site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["master","ci/deploy-to-pages"]
 
   # Runs in workflow creation branch
   pull_request:
