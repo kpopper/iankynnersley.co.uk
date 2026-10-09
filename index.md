@@ -12,6 +12,6 @@ layout: default
 
 ### In recent years I've helped businesses such as [Provenance](https://www.provenance.org/), [ING](https://www.ing.com/), [Vodafone](https://www.vodafone.com/), [Barclaycard](https://www.barclaycard.co.uk/) and [Raremark](https://raremark.com/) to invent and launch digital products and services.
 
-### Learn [more about me](/about) or <a href="http://uk.linkedin.com/in/iankynnersley/" onclick="trackOutboundLink('http://uk.linkedin.com/in/iankynnersley/'); return false;">read my CV</a>.
+### Learn [more about me](about) or <a href="http://uk.linkedin.com/in/iankynnersley/" onclick="trackOutboundLink('http://uk.linkedin.com/in/iankynnersley/'); return false;">read my CV</a>.
 
 ### Feel free to [get in touch](#footer) if you think I can help.
